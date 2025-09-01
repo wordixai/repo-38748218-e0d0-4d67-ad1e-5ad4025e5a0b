@@ -24,13 +24,6 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
     --radius: 0.5rem;
-    
-    /* Guesty specific colors */
-    --guesty-teal: 179 100% 25%;
-    --guesty-teal-light: 179 50% 85%;
-    --guesty-dark: 220 20% 15%;
-    --guesty-gray: 220 10% 50%;
-    --guesty-light-gray: 220 10% 95%;
   }
 
   * {
@@ -49,7 +42,7 @@
   }
   
   .button-primary {
-    @apply bg-guesty-teal text-white hover:bg-guesty-teal/90 transition-colors px-6 py-3 rounded-lg font-medium inline-flex items-center gap-2;
+    @apply bg-guesty-teal text-white hover:bg-guesty-teal-600 transition-colors px-6 py-3 rounded-lg font-medium inline-flex items-center gap-2;
   }
   
   .button-secondary {
@@ -57,7 +50,7 @@
   }
   
   .button-tertiary {
-    @apply text-guesty-teal hover:text-guesty-teal/80 transition-colors font-medium inline-flex items-center gap-2;
+    @apply text-guesty-teal hover:text-guesty-teal-600 transition-colors font-medium inline-flex items-center gap-2;
   }
   
   .section-label {
@@ -94,27 +87,5 @@
   
   .tag.dark {
     @apply bg-black/20 text-white;
-  }
-}
-
-@layer utilities {
-  .bg-guesty-teal {
-    background-color: hsl(var(--guesty-teal));
-  }
-  
-  .text-guesty-teal {
-    color: hsl(var(--guesty-teal));
-  }
-  
-  .text-guesty-dark {
-    color: hsl(var(--guesty-dark));
-  }
-  
-  .text-guesty-gray {
-    color: hsl(var(--guesty-gray));
-  }
-  
-  .bg-guesty-light-gray {
-    background-color: hsl(var(--guesty-light-gray));
   }
 }

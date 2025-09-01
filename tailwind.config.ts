@@ -61,7 +61,24 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Guesty custom colors
+				'guesty-teal': {
+					DEFAULT: '#008B8B',
+					50: '#E0F7F7',
+					100: '#B3ECEC',
+					200: '#80DFDF',
+					300: '#4DD1D1',
+					400: '#26C4C4',
+					500: '#008B8B',
+					600: '#007A7A',
+					700: '#006969',
+					800: '#005858',
+					900: '#004747'
+				},
+				'guesty-dark': '#2D3748',
+				'guesty-gray': '#718096',
+				'guesty-light-gray': '#F7FAFC'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
