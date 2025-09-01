@@ -1,3 +1,6 @@
+import { Button } from '@/components/ui/button';
+import { ArrowRight } from 'lucide-react';
+
 const PartnersSection = () => {
   const partnerLogos = [
     'Airbnb', 'Booking.com', 'Vrbo', 'Expedia', 'Hotels.com', 'HomeAway',
